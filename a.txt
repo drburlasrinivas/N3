@@ -1,1 +1,33 @@
-hi sir
+git branch
+git checkout -b branchname or git switch -c branchname	//to create and change branch
+git branch
+git branch -d branchname // to delete branch
+git branch
+git status 
+
+
+
+step1:	git init
+step2:	git status
+
+	notepad a.txt
+	on branch xxx
+	untracked files
+
+step3:	git add .
+step4:	git status
+step5:	git commit -m "comment"
+	1 file changed 1 insertion
+	create mode 100644 a.txt
+step6:	git status
+	on branch xxx
+	nothing to commit, working tree clean
+step7:
+	git branch -M xxx
+step8:	git remote add origin https://github.com/drburlasrinivas/N3.git
+step9: 	git push -u origin xxx
+	enumerating objects: 11, done.
+step10:	git status
+	on branch xxx
+	your branch is up to date with origin/xxx
+	nothing to commit, working tree clean
